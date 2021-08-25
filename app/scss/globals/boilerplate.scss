@@ -1,3 +1,5 @@
+@use '../util' as *;
+
 html {
     font-size: 100%;
     box-sizing: border-box;
@@ -10,8 +12,24 @@ html {
 }
 
 body {
+    background: var(--paleblue);
     font-family: var(--red-hat);
     font-size: 16px;
     margin: 0;
     padding: 0;
+
+    &::before {
+        @include breakpoint(xlarge) {
+            content: '';
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: rem(-100);
+            left: 0;
+            z-index: -1;
+            background-image: url('/images/pattern-background-desktop.svg');
+        }
+    }
 }
