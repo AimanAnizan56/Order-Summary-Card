@@ -65,7 +65,7 @@
         justify-content: start;
         align-items: center; */
         display: grid;
-        grid-template-columns: 25% 2fr 25%;
+        grid-template-columns: 25% 1fr 25%;
 
         @include breakpoint(large) {
             // padding: rem(20) rem(30);
@@ -109,6 +109,7 @@
     }
 
     &__btn {
+        font-family: var(--red-hat);
         &-proceed {
             display: block;
             // font-size: 1rem;
