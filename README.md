@@ -78,7 +78,7 @@ I had learn how the grid system works by providing template for the columns and 
 
 ### Useful resources
 
--   [A Complete Guide to Grid | CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/m) - This website provide a lot of useful tricks and tips for the newbie like me. I recomend this website for anyone who like to deep more into css grid and the others.
+-   [A Complete Guide to Grid | CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/) - This website provide a lot of useful tricks and tips for the newbie like me. I recomend this website for anyone who like to deep more into css grid and the others.
 
 ## Author
 
