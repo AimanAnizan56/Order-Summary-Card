@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot - Desktop](./Screenshot-Desktop.png)
-![Screenshot - Mobile](./Screenshot-Mobile.png)
+![Screenshot - Mobile](./Screenshot/Screenshot-Mobile.png)
+![Screenshot - Desktop](./Screenshot/Screenshot-Desktop.png)
 
 ### Links
 
@@ -61,7 +61,7 @@ I had learn how the grid system works by providing template for the columns and 
 .card {
     &__plan {
         display: grid;
-        grid-template-columns: 25% 2fr 25%;
+        grid-template-columns: 25% 1fr 25%;
 
         &-price {
             grid-column-start: 2;
