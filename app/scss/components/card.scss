@@ -5,7 +5,6 @@
     display: inherit;
     margin: 0 auto;
     margin-bottom: rem(20);
-    // max-width: rem(400);
     max-width: rem(450);
     border-radius: rem(20);
     box-shadow: 0 rem(20) rem(20) var(--brightbluehovershadow);
@@ -37,46 +36,24 @@
         margin: 0 auto;
         line-height: 1.6;
         margin-bottom: rem(20);
-        // display: inline-block;
-        /* padding: 0 rem(70);
-        margin-bottom: rem(20);
-        
-        @include breakpoint-down(small) {
-            padding: 0 rem(30);
-        } */
-
-        /* @include breakpoint(large) {
-            margin-bottom: rem(20);
-        } */
     }
 
     &__plan {
         background: var(--verypaleblue);
         border-radius: rem(10);
         font-size: rem(14);
-        //padding: rem(15);
-        // padding: rem(20);
         padding: rem(18);
         width: 85%;
         margin: 0 auto;
-        // margin-bottom: rem(25);
         margin-bottom: rem(23);
-        /* display: flex;
-        justify-content: start;
-        align-items: center; */
         display: grid;
         grid-template-columns: 25% 1fr 25%;
 
         @include breakpoint(large) {
-            // padding: rem(20) rem(30);
             font-size: rem(16);
             margin-bottom: rem(32);
             padding: rem(25);
             width: 80%;
-        }
-
-        &-icon {
-            // display: inline-block;
         }
 
         &-price {
@@ -99,7 +76,6 @@
             grid-column-end: 4;
             color: var(--brightblue);
             text-decoration: underline;
-            // cursor: pointer;
 
             &:hover {
                 color: var(--brightbluehover);
@@ -112,19 +88,16 @@
         font-family: var(--red-hat);
         &-proceed {
             display: block;
-            // font-size: 1rem;
             font-size: rem(14);
             margin: 0 auto;
             width: 85%;
             border: 0;
-            /* padding: rem(15) 0; */
             padding: rem(17);
             border-radius: rem(10);
             background: var(--brightblue);
             color: white;
             font-weight: 700;
             box-shadow: 0 rem(13) rem(15) var(--brightblueshadow);
-            // margin-bottom: rem(5);
             margin-bottom: rem(8);
             cursor: pointer;
 
@@ -142,11 +115,9 @@
             display: block;
             margin: 0 auto;
             width: 85%;
-            // padding: rem(15) 0;
             padding: rem(17) 0;
             font-size: rem(14);
             font-weight: 700;
-            // margin-bottom: rem(20);
             margin-bottom: rem(15);
 
             @include breakpoint(large) {
